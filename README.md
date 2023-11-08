@@ -8,23 +8,25 @@
 * Data Exploration
 * Data Cleaning
 * Feature Analysis
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Data Overview - Understand the general structure of the dataset (Size, columns etc)
+- Data Types and Conversion - Check the data types of each column
+- Unique Values and Cardinality - Identify unique values in categorical columns
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Low Risk borrowers - Borrowers with higher credit rating (A,B) could be given loans as they have a less likelihood of default. These borrowers can be offered loans at a competitive rate.
+- Employment history – Borrowers with consistent employee history of >6-7 years could be less risky
+- Smaller loans should be approved for low graded borrowers
+- High risk borrowers should be given a short tenure loan
+- Verification process for the loans should be little more stringent
+- Applicants with higher income could be given more diversified loans  
+
+  
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
