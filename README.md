@@ -1,48 +1,54 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study 
+
+> Perform EDA to understand how consumer attributes and loan attributes influence the tendency of default and identify driving factors behind loan default
+
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* Data Exploration
+* Data Cleaning
+* Feature Analysis
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Data Overview - Understand the general structure of the dataset (Size, columns etc)
+- Data Types and Conversion - Check the data types of each column
+- Unique Values and Cardinality - Identify unique values in categorical columns
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Low Risk borrowers - Borrowers with higher credit rating (A,B) could be given loans as they have a less likelihood of default. These borrowers can be offered loans at a competitive rate.
+- Employment history – Borrowers with consistent employee history of >6-7 years could be less risky
+- Smaller loans should be approved for low graded borrowers
+- High risk borrowers should be given a short tenure loan
+- Verification process for the loans should be little more stringent
+- Applicants with higher income could be given more diversified loans  
+
+  
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- import numpy as np
+- import pandas as pd
+- import matplotlib.pyplot as plt
+- import seaborn as sns
+- import warnings
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
+- This project was inspired by Upgrad 
 - References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was based on Upgrad Case Study
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+samidhbha
 
 
 <!-- Optional -->
