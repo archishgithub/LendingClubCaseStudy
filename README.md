@@ -1,5 +1,7 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study 
+
+> Perform EDA to understand how consumer attributes and loan attributes influence the tendency of default and identify driving factors behind loan default
+
 
 
 ## Table of Contents
