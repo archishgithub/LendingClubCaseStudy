@@ -42,9 +42,9 @@
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
+- This project was inspired by Upgrad 
 - References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was based on Upgrad Case Study
 
 
 ## Contact
